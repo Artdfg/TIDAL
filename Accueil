@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <!-- Quand on aura un css <link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+        <!-- Barre de navigation à compléter -->
+        </ul>
+    </nav>
+
+    <section id="connexion" class="connect">
+        <fieldset>
+            <legend>J'ai déja un compte</legend>
+            Identifiant :<br>
+            <input type="text" name="id" id="id" autocapitalize="on"> <br>
+            Mot de passe :<br>
+            <input type="text" name="mdp" id="mdp"> <br><br>
+            <button type="button" onclick="Connect()">Valider</button>
+        </fieldset>
+        <fieldset >
+            <legend>Je me crée un compte</legend>
+            Identifiant :<br>
+            <input type="text" name="id2" id="id2" autocapitalize="on"> <br>
+            Mot de passe :<br>
+            <input type="text" name="mdp2" id="mdp2"> <br><br>
+            <button type="button" onclick="newConnect()">Valider</button>
+        </fieldset>
+    </section>
+    
+</body>
+<script src='Connect.js'></script>
+</html>
